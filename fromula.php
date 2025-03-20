@@ -18,8 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensaje .= "Opinión:\n$opinion\n";
     $mensaje .= "Calificación: $calificacion/10\n";
 
-    // 📨 Encabezados del correo
-    $headers = "baldimirbacab@gmail.com\r\n";
+    // 📨 Encabezados del correo//
     $headers .= "Reply-To: $destinatario\r\n";
 
     // ✉️ Enviar correo
